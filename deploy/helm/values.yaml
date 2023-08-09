@@ -29,7 +29,7 @@ operator:
   # -- namespace to install the operator, defaults to the .Release.Namespace
   namespace: ""
   # -- replicas the number of replicas of the operator's pod
-  replicas: 1
+  replicas: 3
 
   # -- additional labels for the operator pod
   podLabels: {}
