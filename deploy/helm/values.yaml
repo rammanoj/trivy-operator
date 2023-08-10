@@ -202,9 +202,6 @@ trivyOperator:
   # initContainers) to be amended with.
   scanJobPodTemplateContainerSecurityContext:
     allowPrivilegeEscalation: false
-    runAsNonRoot: true
-    seccompProfile:
-      type: "RuntimeDefault"
     capabilities:
       drop:
         - ALL
