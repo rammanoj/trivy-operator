@@ -148,7 +148,7 @@ service:
 # you must have Prometheus already installed and running
 serviceMonitor:
   # -- enabled determines whether a serviceMonitor should be deployed
-  enabled: false
+  enabled: true
   # -- The namespace where Prometheus expects to find service monitors
   # namespace: ""
   interval: ""
